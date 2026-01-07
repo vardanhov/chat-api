@@ -27,8 +27,6 @@ Backend application that provides a **WebSocket-based API** for managing chat me
 - **Linux or WSL2 (Ubuntu recommended)**
 - **GraalVM 22.3+ with native-image**
 
-> ⚠️ Native image must be built on Linux (or WSL2).  
-> Windows native build is not supported.
 
 ---
 
