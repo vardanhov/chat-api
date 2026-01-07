@@ -49,6 +49,7 @@ public class ChatService {
         }
 
         message.setPayload(payload);
+        message.setVersion(message.getVersion() + 1);
         return repository.save(message);
     }
 

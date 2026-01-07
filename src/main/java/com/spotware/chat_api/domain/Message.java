@@ -54,4 +54,7 @@ public class Message {
     public void setPayload(String payload) {
         this.payload = payload;
     }
+    public void setVersion(Integer version) {
+        this.version = version;
+    }
 }
